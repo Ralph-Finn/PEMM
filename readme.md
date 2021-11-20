@@ -1,8 +1,8 @@
 ## Potential Energy based Mixture Model for Noisy Label Learning
-#@ Wenbin Yang Ralph.Yang@dell.com
-#@ Zijia Wang zijia_wang@dell.com
-# Based on https://github.com/HanxunH/SCELoss-Reproduce
-# Example for 0.4 Symmetric noise rate with PEMM
+@ Wenbin Yang Ralph.Yang@dell.com
+@ Zijia Wang zijia_wang@dell.com
+ Based on https://github.com/HanxunH/SCELoss-Reproduce
+#### Example for 0.4 Symmetric noise rate with PEMM
 
 ```
  python -u train_PEMM.py  --loss         PEMM               \
@@ -19,7 +19,7 @@
                      --checkpoint_path 'mdoel_s.pkl'
 ```
 
-# Example for 0.4 Asymmetric noise rate with PEMM
+#### Example for 0.4 Asymmetric noise rate with PEMM
 ```
 python -u train_PEMM.py  --loss         PEMM               \
                       --dataset_type cifar10           \
@@ -35,4 +35,4 @@ python -u train_PEMM.py  --loss         PEMM               \
                      --asym \
                      --checkpoint_path 'model_a.pkl'
 ```
-# For feature visulization, go to jupyter notebook playground "Tester_1.ipynb" for more detials
+For feature visulization, go to jupyter notebook playground "Tester_1.ipynb" for more detials
