@@ -1,7 +1,12 @@
 ## Potential Energy based Mixture Model for Noisy Label Learning
 @ Wenbin Yang Ralph.Yang@dell.com
 @ Zijia Wang zijia_wang@dell.com
+
+
+
  Based on https://github.com/HanxunH/SCELoss-Reproduce
+ 
+ 
 #### Example for 0.4 Symmetric noise rate with PEMM
 
 ```
